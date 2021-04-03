@@ -1,0 +1,69 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Visítanos{% endblock %}
+
+{% block content %}
+<!-- Menú -->
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/Menú.jpeg' %}" alt="">
+  </div>
+</section>
+
+<section class="page-section about-heading">
+  <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Tradición familiar Mexicana</span>
+              <span class="section-heading-lower">Nuestros productos</span>
+            </h2>
+            <p>Todos nuestros porductos estan elaborados con nuestra deliciosa masa de hojaldre receta de la casa.</p>
+            <p>Tambien tenemos servicio (y promociones) a travez de de las plataformas de entrega a domicilio (dar click en logo)</p>
+            <a href="https://order.ubereats.com/cuernavaca/food-delivery/Pizzatitlan/Gu_1zDLjQmORXA7wnS_9EA/?utm_source=web-restaurant-manager" rel="noopener noreferrer" target="_blank">
+              <img src="{% static 'core/img/UberEats logo.png' %}" height= "100px">
+             <a href="https://www.rappi.com.mx/restaurantes/1923231874-pizzatitlan-cuernavaca" rel="noopener noreferrer" target="_blank">
+              <img src="{% static 'core/img/Rappi logo.png' %}" height= "130px">
+            <a href="https://play.google.com/store/apps/details?id=com.xiaojukeji.didi.global.customer&hl=es_MX&gl=US" rel="noopener noreferrer" target="_blank">
+              <img src="{% static 'core/img/Didi logo.jpg' %}" height= "100px">
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- Descripción del menú y ofertas -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-5">
+            <span class="section-heading-upper">Horario de servicio</span>
+          </h2>
+          <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+            <li class="list-unstyled-item list-hours-item d-flex">
+              Todos los días
+              <span class="ml-auto">8:00 a 19:30</span>
+            </li>
+          </ul>
+          <p class="mb-0">
+            <small>
+              <em>Llámanos</em>
+            </small>
+            <br>
+            777 513 52 89
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Maps -->
+</section>
+  <div align="center"><h1 style="color:white;">Estamos ubicados en:</h1></div>
+  <div align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.3435322536684!2d-99.19927428510128!3d18.91618248717974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cddf973f29c593%3A0x2b915c55dc992ee8!2sPIZZATITLAN!5e0!3m2!1ses!2smx!4v1617398241143!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+</section>
+{% endblock %}
