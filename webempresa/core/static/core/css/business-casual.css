@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(235, 58, 58, 0.719), rgba(212, 211, 211, 0.65)), url("../img/bg.jpg") !important;
+  background: linear-gradient(rgba(172, 170, 170, 0.753), rgba(255, 54, 54, 0.65)), url("../img/bg.jpg") !important;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -80,12 +80,12 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(238, 200, 29, 0.37);
+  background-color: rgb(0 0 0 / 59%);
   font-family: 'Raleway';
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #f77326;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -94,7 +94,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #e67811;
 }
 
 @media (min-width: 992px) {
@@ -105,7 +105,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #ec5426;
   }
 }
 
@@ -241,11 +241,11 @@ p {
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #e9512b !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #e9512b !important;
 }
 
 .btn {
@@ -253,13 +253,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #e9512b;
+  border-color: #e9512b;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #e9512b;
+  border-color: #e9512b;
 }
 
 .font-weight-light {
@@ -279,12 +279,12 @@ p {
 }
 
 a.link{
-  color: #df902a;
+  color: #e9512b;
 }
 
 a.link:hover{
   text-decoration: none;
-  color: #e6a756 !important;
+  color: #e9512b !important;
 }
 
 .section-content{
